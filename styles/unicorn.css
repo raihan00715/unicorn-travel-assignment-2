@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* common part */
+
+.orange-text {
+    color: orangered;
+
+}
+
+.orange-text-bold {
+    color: orangered;
+    font-weight: 700;
+}
+
+/* header section */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 140px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logo h2 {
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(101, 101, 101);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+
+
+/* banner part */
+
+.banner {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 140px;
+    height: 420px;
+    border-radius: 20px;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+
+.banner-title {
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.options {
+    background-color: rgba(255, 255, 255, 0.278);
+    height: 60px;
+    margin: 10px 250px;
+    padding-top: 20px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+
+}
+
+
+.options input {
+    width: 10rem;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+}
+
+.btn-find {
+    background-color: orangered;
+    color: white;
+    font-weight: 600;
+    width: 10rem;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+}
+
+/* main section */
+
+.popular-tours {
+    display: flex;
+    gap: 50px;
+    margin: 50px 140px;
+}
+
+
+.tour-title {
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.tour-text p {
+    margin-bottom: 25px;
+}
+
+.tour-text ul li {
+    margin-bottom: 25px;
+}
+
+.btn-read {
+    background-color: orangered;
+    color: white;
+    font-weight: 700;
+    width: 10rem;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+
+}
+
+/* destination */
+.destination {
+    margin: 90px 140px;
+}
+
+.destination-text {
+    text-align: center;
+
+}
+
+.destination-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.destination-subtitle {
+    margin-bottom: 30px;
+}
+
+.destination-images img {
+
+    margin-left: 10px;
+    margin-top: 15px;
+
+
+}
+
+
+/* why us */
+
+.choose-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+
+
+.choose-text {
+    margin: 50px 140px;
+    text-align: center;
+}
+
+.choose-part1 {
+    margin: 50px 140px;
+    display: flex;
+    gap: 30px;
+}
+
+.card-1 {
+    background-color: rgba(223, 206, 158, 0.27);
+    height: 220px;
+    width: 650px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 208, 0, 0.449);
+    padding: 40px;
+}
+
+.card-1 h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-2 {
+    background-color: rgba(158, 207, 223, 0.233);
+    height: 220px;
+    width: 650px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 200, 255, 0.456);
+    padding: 40px;
+}
+
+.card-2 h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.card-3 {
+    margin: 10px 450px;
+    background-color: rgba(223, 158, 158, 0.233);
+    height: 220px;
+    width: 550px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 72, 0, 0.385);
+    padding: 40px;
+
+}
+
+.card-3 h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.card-1 img {
+    width: 80px;
+}
+
+.card-2 img {
+    width: 80px;
+}
+
+.card-3 img {
+    width: 80px;
+}
+
+
+/* newsletter */
+
+.newsletter {
+
+    margin-top: 80px;
+    margin-right: 140px;
+    display: flex;
+    margin-left: 140px;
+    gap: 30px;
+
+}
+
+.newsletter-form {
+
+    padding: 50px;
+    border: 2px solid orangered;
+    border-radius: 20px;
+    height: max-content;
+}
+
+
+.newsletter-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-input input {
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(226, 224, 224, 0.482);
+    margin: 10px 0;
+}
+
+.newsletter-title {
+    margin-bottom: 20px;
+}
+
+.newsletter-subtitle {
+    margin-bottom: 20px;
+}
+
+.newsletter-form hr {
+    border-top: 1px solid rgb(213, 213, 213);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-subscribe {
+
+    background-color: orangered;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.save-badge {
+    color: white;
+    text-align: center;
+    background-color: orangered;
+    padding: 25px;
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+    left: 400px;
+    bottom: 175px;
+    transform: rotate(-35deg);
+
+}
+
+/* 
+review section */
+
+.review-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.review {
+    display: flex;
+
+    margin: 15px 140px;
+
+    gap: 15px;
+}
+
+
+/* footer section */
+
+.footer {
+    background-color: rgb(231, 231, 231);
+    padding-top: 40px;
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+.footer .logo {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.icons {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.footer-subtitle {
+    color: rgb(71, 71, 71);
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.footer hr {
+
+    border-top: 2px solid rgb(186, 184, 184);
+    margin: 20px auto;
+    width: 75%;
+
+}
+
+.footer-copyright {
+    padding-bottom: 90px;
+}
+
+
+
+/* -------------------------------------responsive----------------------------------------- */
+
+
+@media screen and (max-width: 600px) {
+
+    nav {
+
+        padding: 40px 40px;
+    }
+
+    .logo {
+        gap: 15px;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 40px;
+
+    }
+
+    .logo h2 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    nav>ul {
+        display: none;
+    }
+
+
+    .banner {
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: auto;
+        margin: 5px 40px;
+        height: 450px;
+        border-radius: 15px;
+        padding-top: 25px;
+
+    }
+
+    .banner-title {
+        font-size: 1.5rem;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .banner-description {
+        padding: 0 20px;
+    }
+
+
+
+    .options {
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.34);
+        height: 200px;
+        margin: 10px 50px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+    }
+
+    .options input {
+        width: 15rem;
+    }
+
+    .btn-find {
+        width: 15rem;
+    }
+
+    /* popular tours */
+
+    .popular-tours {
+        flex-direction: column;
+        margin: 10px 50px;
+    }
+
+    .tour-title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+
+    /* destination */
+
+    .destination {
+        margin: 30px 50px;
+    }
+
+    .destination-title {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+
+    .destination-images img {
+        width: 100%;
+        height: 250px;
+    }
+
+
+    /* why  choose us */
+
+
+    .choose-part1 {
+        margin: 20px 50px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card-1,
+    .card-2 {
+
+        height: 220px;
+        width: 320px;
+        padding: 40px;
+        margin-top: 10px;
+    }
+
+    .card-3 {
+        margin: 10px 50px;
+        background-color: rgba(223, 158, 158, 0.233);
+        height: 220px;
+        width: 320px;
+        border-radius: 20px;
+        border: 1px solid rgba(255, 72, 0, 0.385);
+
+
+    }
+
+    .choose-title {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    /* newsletter part */
+
+    .newsletter {
+
+        margin-top: 20px;
+        margin-right: 50px;
+        flex-direction: column;
+        margin-left: 50px;
+        gap: 30px;
+
+
+    }
+
+    .newsletter-img img {
+        width: 100%;
+        height: 320px;
+    }
+
+    .save-badge {
+        color: white;
+        text-align: center;
+        background-color: orangered;
+        padding: 15px;
+        width: 150px;
+        height: 60px;
+        border-radius: 10px;
+        position: relative;
+        left: 200px;
+        bottom: 135px;
+        transform: rotate(-35deg);
+
+    }
+
+
+    .review {
+        flex-direction: column;
+
+        margin: 10px 50px;
+
+        gap: 5px;
+    }
+
+    .review-title {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    /* footer */
+
+    .footer-subtitle {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+
+
+}
