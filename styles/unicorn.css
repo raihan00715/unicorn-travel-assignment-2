@@ -10,6 +10,8 @@
         "wdth" 100;
 }
 
+
+
 /* common part */
 
 .orange-text {
@@ -108,6 +110,7 @@ nav li a {
     height: 45px;
     border: none;
     border-radius: 7px;
+
 }
 
 .btn-find {
@@ -172,12 +175,28 @@ nav li a {
     margin-bottom: 30px;
 }
 
-.destination-images img {
+.destination-images-part1,
+.destination-images-part2,
+.destination-images-part3 {
 
-    margin-left: 10px;
-    margin-top: 15px;
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
 
 
+
+}
+
+.destination-images-part1 img {
+    width: 100%;
+}
+
+.destination-images-part2 img {
+    width: 100%;
+}
+
+.destination-images-part3 img {
+    width: 100%;
 }
 
 
@@ -347,6 +366,7 @@ review section */
 
 .review {
     display: flex;
+    text-align: center;
 
     margin: 15px 140px;
 
@@ -498,10 +518,29 @@ review section */
     }
 
 
-    .destination-images img {
-        width: 100%;
-        height: 250px;
+    .destination-images-part1,
+    .destination-images-part2,
+    .destination-images-part3 {
+        flex-direction: column;
     }
+
+
+
+    .destination-images-part1 img {
+        height: 300px;
+    }
+
+    .destination-images-part2 img {
+        height: 300px;
+    }
+
+    .destination-images-part3 img {
+        height: 300px;
+    }
+
+
+
+
 
 
     /* why  choose us */
@@ -592,6 +631,8 @@ review section */
         margin-left: 20px;
         margin-right: 20px;
     }
+
+
 
 
 
